@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Cheese Festival</title>
+</head> 
+    <body> 
+        <h1>Wisconsin Cheese Festival Registration</h1> 
+        <p>Come and join us at this year's annual Cheese Festival!</p>
+        <p>The registration for the festival.</p> 
+        <main> 
+            <form action="/action_page.php"> 
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br> 
+                <label for="email">Email:</label><br> 
+                <input type="email" id="email" name="email"><br> 
+                <label for="phone">Phone:</label><br> 
+                <input type="tel" id="phone" name="phone"><br>
+            </form> 
+            <select> 
+                <optgroup label="Cheese Preference"> 
+                    <option>Mild</option>
+                    <option>Sharp</option> 
+                    <option>Specialty</option>
+                </optgroup>
+            </select> 
+            <fieldset> 
+                <legend>Which Day Will You Attend</legend> 
+                <input type="radio" id="day" name="week"> 
+                <label for="day">Friday</label> 
+                <input type="radio" id="weekend" name="week"> 
+                <label for="weekend">Saturday</label> 
+                <input type="radio" id="end" name="week"> 
+                <label for="end">Sunday</label>
+            </fieldset> 
+            <textarea rows="6" placeholder="Comments, dietary restrictions. . ."></textarea> 
+            <input type="submit" value="Submit"> 
+        </main> 
+    </body> 
+</html>
